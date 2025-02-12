@@ -19,7 +19,7 @@ const Pagination: React.FC<PaginationProps> = ({ currentPage, totalPages, onPage
         <Button
           key={pageNumber}
           onClick={() => onPageChange(pageNumber)}
-          className={currentPage === pageNumber ? 'bg-blue-500 text-white' : ''} // Highlight current page
+          className={currentPage === pageNumber ? 'bg-blue-500 text-white' : ''}
         >
           {pageNumber}
         </Button>

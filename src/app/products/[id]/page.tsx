@@ -4,7 +4,7 @@ import ProductDetails from '@/components/ProductDetails';
 export default async function ProductPage({ params }: { params: { id: string } }) {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <ProductDetails productId={params.id} />  {/* No changes needed here */}
+      <ProductDetails productId={params.id} />
     </Suspense>
   );
 }

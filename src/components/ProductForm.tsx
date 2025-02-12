@@ -51,7 +51,7 @@ function ProductForm({ product }: { product?: any }) {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const updatedProduct = await updateProduct(product.id, formData); // Ensure product.id exists
+      const updatedProduct = await updateProduct(product.id, formData);
       setAlert({ type: 'success', message: 'Product updated successfully!' });
       setTimeout(() => setAlert(null), 3000);
       router.push('/');
