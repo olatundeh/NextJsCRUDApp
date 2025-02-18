@@ -1,6 +1,6 @@
 # Next.js CRUD Application with DummyJSON Integration
 
-This project demonstrates a basic CRUD (Create, Read, Update, Delete) application built with Next.js 13, integrating with the dummyJSON API for product data.  It utilizes the Next.js App Router, Server Components, and SWR for state management and data fetching.
+This project demonstrates a basic CRUD (Create, Read, Update, Delete) application built with Next.js 13, integrating with the dummyJSON API for product data.  It utilizes the Next.js App Router, Server Components, and SWR for state management and data fetching, Jest and React Testing Library for testing.
 
 ## Table of Contents
 
