@@ -9,7 +9,7 @@ import * as React from 'react';
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
 
 export default function EditProductPage({ params }: { params: { id: string } }) {
-    const { id } = React.use(params);
+    const { id } = params;
     const { data: product, error, isLoading } = useSWR(`${API_BASE_URL}/products/${id}`, fetcher);
 
     if (error) return <div>failed to load</div>;
